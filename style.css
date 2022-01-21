@@ -1,11 +1,28 @@
+body{
+    background: linear-gradient(90deg, grey, black);
+    overflow: hidden;
+}
+
+/* ------------------- NAV ----------------------- */
 nav {
     width: 100%;
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(46, 46, 46, 0.171);
+    background: linear-gradient(90deg, black, grey);
 }
+
+nav a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: blanchedalmond;
+    text-decoration: underline;
+}
+
+/* ------------------ CARDS ---------------------- */
 #displayCards{
     display: flex;
     flex-direction: row;
@@ -20,9 +37,15 @@ nav {
     border: 2px solid black;
     margin-top: 5%;
     padding: 2%;
-    transition: transform 0.3s ease-out;
+    transition: transform 30s ease-out;
+    background: #eee;
+    border-radius: 2%;
 }
 .container-card:hover{
     transform: rotate(360deg);
-    
+}
+
+button a{
+    text-decoration: none;
+    color: black;
 }

@@ -1,1 +1,0 @@
-let fizzBuzzSelector = document.getElementById("fizzBuzz");

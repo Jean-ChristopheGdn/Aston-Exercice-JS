@@ -2,6 +2,8 @@
 
 const clockSelector = document.getElementById("clock");
 
+// Function to display clock
+
 function displayClock(){
     let date = new Date();
     let hour = date.getHours();

@@ -2,7 +2,7 @@
 
 const sectionFriendship = document.getElementById("friendship")
 
-// list infos
+// list main characters
 
 let mainCharacters = [
     {
@@ -30,6 +30,8 @@ let mainCharacters = [
         description: "Rarity est une licorne blanche avec une crinière violette et une marque de beauté en forme de trois diamants bleus, elle est la sœur aînée de Sweetie Belle. Rarity vit et travaille dans son propre magasin, la Boutique Carrousel où elle crée, fabrique et vend des habits.",
     }
 ];
+
+// Function to display each characters from list
 
 function displayMainCharacters(){
     mainCharacters.forEach(element =>{
