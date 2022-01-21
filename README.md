@@ -53,7 +53,7 @@ Compensation point: an image!
 You will create a page that will display the current time as "hh:mm:s" in the center of the page. 
 You will insert a minimum of style so that it is at least pleasant to look at. 
 
-Exercise 3: FizzBuzz
+## Exercise 3: FizzBuzz
 
 You will create a page that will display a text field with a counter ranging from 0 to 100. It will display : 
 The number in question, 
@@ -63,7 +63,7 @@ FizzBuzz if it is a multiple of 3 and 5.
 
 All your code will be managed exclusively by functions.
 
-Exercise 4 : FizzBuzz ++
+## Exercise 4 : FizzBuzz ++
 
 You will create a new FizzBuzz, except that : 
 
@@ -74,5 +74,3 @@ A next button will allow to go to the next value
 A "prev" button will display the previous value. 
 
 Script recycling : 1 point of recovery <3
-
-Translated with www.DeepL.com/Translator (free version)
