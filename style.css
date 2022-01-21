@@ -20,4 +20,8 @@ nav {
     border: 2px solid black;
     margin-top: 5%;
     padding: 2%;
+    transition: transform 0.3s ease-out;
+}
+.container-card:hover{
+    transform: translateY(-10px);
 }
