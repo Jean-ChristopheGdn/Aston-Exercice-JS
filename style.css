@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(90deg, grey, black);
+    overflow: hidden;
+}
+
+/* ------------------- NAV ----------------------- */
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, black, grey);
+}
+
+nav a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: blanchedalmond;
+    text-decoration: underline;
+}
+
+/* ------------------ CARDS ---------------------- */
+#displayCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-top: 5%;
+    padding: 2%;
+    transition: transform 30s ease-out;
+    background: #eee;
+    border-radius: 2%;
+}
+.container-card:hover{
+    transform: rotate(360deg);
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
