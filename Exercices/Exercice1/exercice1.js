@@ -31,8 +31,11 @@ let mainCharacters = [
     }
 ];
 
-// Function to display each characters from list
 
+/**
+ * Display each objects from list of main characters from "FriendShip"
+ *
+ */
 function displayMainCharacters(){
     mainCharacters.forEach(element =>{
         let container = document.createElement("ul");

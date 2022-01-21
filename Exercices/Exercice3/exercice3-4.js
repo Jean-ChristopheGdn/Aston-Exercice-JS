@@ -5,8 +5,10 @@ let fizzBuzzPlusSection = document.getElementById("fizzBuzzPlus");
 let btnNextSelector = document.getElementsByClassName("btn-next");
 let btnPreviousSelector = document.getElementsByClassName("btn-previous");
 
-// Function display in dom 
-
+/**
+ * Display Fizz, buzz and fizzbuzz in dom depending on the return of 
+ * checkFizzBuzz function.
+ */
 function displayFizzBuzz() {
     let number = 100;
     for (let i = 1; i <= number; i++) {
@@ -35,8 +37,12 @@ function displayFizzBuzz() {
     }
 }
 
-// Function check fizz if %3, Buzz if %5 and FizzBuzz for both.
 
+/**
+ * Function check fizz if %3, Buzz if %5 and FizzBuzz for both.
+ * @param {number} number This is the number to test
+ * @returns Return string; Fizz if %3 Buzz if %5 and fizzbuzz if both
+ */
 function checkFizzBuzz(number){
     if(number == 0){
         return ""
@@ -54,10 +60,12 @@ function checkFizzBuzz(number){
     }
 }
 
-// Function fizzBUzz on click 
 
 let number = 0;
-
+/**
+ * Create Buttons to incremente or decremente number
+ * Display fizz, buzz or both depending of checkFizzBuzz function return
+ */
 function fizzBuzzPlus(){
 
     let container = document.createElement("div");

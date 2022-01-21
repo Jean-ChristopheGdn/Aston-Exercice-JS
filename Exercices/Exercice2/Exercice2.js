@@ -2,14 +2,18 @@
 
 const clockSelector = document.getElementById("clock");
 
-// Function to display clock
 
+/**Function to display clock
+ * Revovery of the current time (hour, minute and second)
+ * Manage display on 2 number if value inforior to 10
+ * Refresh each second to dynamic display
+ */
 function displayClock(){
     let date = new Date();
     let hour = date.getHours();
     let minute = date.getMinutes();
     let second = date.getSeconds();
-    // Manage display on 2 number if value inferior to 10
+ 
     if(hour < 10){
         hour = "0" + hour;
     }
@@ -21,7 +25,6 @@ function displayClock(){
     }
     clockSelector.innerHTML = hour + " : " + minute + " : " + second;
 
-    // Refresh each second for dynamic display
     setTimeout(displayClock, 1000);
 }
 
