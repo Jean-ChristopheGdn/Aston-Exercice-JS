@@ -17,14 +17,14 @@ let exercices = [{
 },
 {
     title: "FizzBuzz",
-    description: "Vous créerez une page qui affichera un champs de texte un compteur allant de 0 à 100. Il affichera : <br>Le nombre en question, <li>Fizz si c'est un multiple de 3</li>,<li>Buzz si c'est un multiple de 5</li><li>FizzBuzz si c'est un multiple de 3 et de 5.</li><br>Tout votre code sera géré exclusivement par des fonctions.",
+    description: "Vous créerez une page qui affichera un champs de texte un compteur allant de 0 à 100. Il affichera : <br>Le nombre en question, <li>Fizz si c'est un multiple de 3,</li><li>Buzz si c'est un multiple de 5</li><li>FizzBuzz si c'est un multiple de 3 et de 5.</li><br>Tout votre code sera géré exclusivement par des fonctions.",
     buttonEx: "Exercice 3",
     link: "./Exercices/Exercice3/Exercice3.html"
 },
 {
     title: "FizzBuzz ++",
     description: "Vous créerez un nouveau FizzBuzz, sauf que : <li>Une case affichera le chiffre,</li><li>Fizz, Buzz ou FizzBuzz s'afficheront au dessus du chiffre, en grand</li><li>Les valeurs s'afficheront une à une,</li><li>Un boutton next permettra de passer à la valeur suivante</li><li>Un bouton 'prev' permettra d'afficher la valeur précédente.</li><br>Recyclage de script : 1 point de récup <3",
-    buttonEx: "Exercice 3",
+    buttonEx: "Exercice 4",
     link: "./Exercices/Exercice4/Exercice4.html"
 }
 ];

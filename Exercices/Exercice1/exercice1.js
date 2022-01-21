@@ -1,6 +1,6 @@
 //selectors 
 
-let sectionFriendship = document.getElementById("friendship")
+const sectionFriendship = document.getElementById("friendship")
 
 // list infos
 

@@ -23,5 +23,6 @@ nav {
     transition: transform 0.3s ease-out;
 }
 .container-card:hover{
-    transform: translateY(-10px);
+    transform: rotate(360deg);
+    
 }
