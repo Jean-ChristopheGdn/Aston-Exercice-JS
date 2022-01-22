@@ -1,6 +1,9 @@
 body{
+    font-family: Montserrat, sans-serif;
     background: linear-gradient(90deg, grey, black);
     overflow: hidden;
+    font-size: large;
+    text-align: justify;
 }
 
 /* ------------------- NAV ----------------------- */
@@ -48,4 +51,26 @@ nav a:hover{
 button a{
     text-decoration: none;
     color: black;
+}
+button{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 0.6em;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+button:hover{
+    background-color: rgba(255, 235, 205, 0.329);
 }
