@@ -1,4 +1,4 @@
-# ASTON EXERCICES JAVASCRIPT
+# ASTON EXERCISES JAVASCRIPT
 
 ## Start : 
 1. Download all the repository
