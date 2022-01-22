@@ -2,17 +2,30 @@ body{
     height: 100vh;
     background: linear-gradient(purple, red); 
     overflow: hidden;
+    font-family: Montserrat, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.24);
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
 }
 #fizzBuzz{
     margin: auto;
     color: white;
     font-size: 1.5em;
-    width: 70%;
-    height: 70vh;
+    width: 650px;
+    height: 650px;
     border-radius: 50%;
     overflow: hidden scroll;
+    scroll-behavior: auto;
     text-align: center;
     background: linear-gradient(red, purple);
+    transition: transform 1s ease-out;
+}
+#fizzBuzz:hover{
+    transform: rotate(3600deg);
 }
 button{
     box-sizing: border-box;
